@@ -1,4 +1,4 @@
-package com.vlyashuk.imagesearch
+package com.vlyashuk.imagesearch.data
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
