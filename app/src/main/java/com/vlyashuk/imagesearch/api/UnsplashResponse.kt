@@ -3,5 +3,5 @@ package com.vlyashuk.imagesearch.api
 import com.vlyashuk.imagesearch.data.UnsplashPhoto
 
 data class UnsplashResponse(
-    val result: List<UnsplashPhoto>
+    val results: List<UnsplashPhoto>
 )
