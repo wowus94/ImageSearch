@@ -69,7 +69,7 @@ class GalleryFragment : Fragment(R.layout.fragment_gallery),
             }
         }
 
-        activity?.addMenuProvider(this)
+        activity?.addMenuProvider(this, viewLifecycleOwner)
     }
 
     override fun onItemClick(photo: UnsplashPhoto) {
